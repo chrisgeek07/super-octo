@@ -1,4 +1,123 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto-extra-bold';
+    src: url(../fonts/Roboto-Black.ttf) format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Italic.ttf) format("truetype");
+    font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+#logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .hero-left {
+    width: 49%;
+    padding: 8% 0;
+}
+
+header .hero-left h1 {
+    font-size: 48px;
+    font-family: 'Roboto-extra-bold';
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 2%;
+}
+
+header .hero-left p {
+    margin-bottom: 3%;
+}
+
+header .hero-left .main-cta {
+    color: #FFFFFF;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+    letter-spacing: 1px;
+    transition: all .3s ease-in;
+}
+
+nav ul li:hover {
+    transform: translateY(-5px);
+}
+
+nav ul a {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

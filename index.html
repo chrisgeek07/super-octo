@@ -10,23 +10,28 @@
 </head>
 <body>
     <header>
-        <div id="logo">Super Octo</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container header-content">
+            <section class="hero">
+                <p id="logo">Super Octo</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
 
-        <div class="main-container">
-            <div class="content-left">
-                <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, pariatur?</p>
-                <a href="#">Get Started</a>
-            </div>
-            <img src="#" alt="">
+            <section class="hero-left">
+                <div class="content-left">
+                    <h1>This website is awesome</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, pariatur?</p>
+                    <a href="#" class="main-cta">Get Started</a>
+                </div>
+                <img src="#" alt="">
+            </section>
         </div>
+
     </header>
     <main>
         <article class="services">
@@ -56,7 +61,7 @@
             </section>
         </article>
 
-        <article class="quote">
+        <article class="container quote">
             <figure>
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident facere perferendis maxime aperiam, necessitatibus
@@ -67,7 +72,7 @@
             </figure>
         </article>
 
-        <section class="cta-container">
+        <section class="container cta-container">
             <div class="cta-text-content">
                 <h3>This is a call to action baby</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, maiores!</p>
@@ -76,9 +81,12 @@
         </section>
 
     </main>
+
     <footer>
-        <p>Copyright &copy; 2023</p>
-        <h4>Made with <i class="fas fa-heart"></i> by Christian B.</h4>
+        <div class="container footer">
+            <p>Copyright &copy; 2023</p>
+            <h4>Made with <i class="fas fa-heart"></i> by Christian B.</h4>
+        </div>
     </footer>
     
 </body>
