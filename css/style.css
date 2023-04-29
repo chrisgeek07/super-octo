@@ -14,6 +14,10 @@
     font-weight: 900;
 }
 @font-face {
+    font-family: 'Roboto-light-italic';
+    src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
+}
+@font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Italic.ttf) format("truetype");
     font-style: italic;
@@ -123,10 +127,81 @@ a {
     text-decoration: none;
 }
 
+main .services {
+    padding: 2% 0;
+}
+
+main .services h2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+main .services .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-bottom: 3%;
+}
+
+main .services .card-container .card {
+    max-width: 150px;
+    text-align: center;
+    
+}
+
+main .services .card-container .card img {
+    width: 150px;
+    aspect-ratio: 1;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+main .container.quote {
+    background-color: #E5E7EB;
+    padding: 8% 0;
+    position: relative;
+    margin-bottom: 6%;
+}
+
+main .quote blockquote p {
+    font-size: 36px;
+    font-family: 'Roboto-light-italic';
+    line-height: 1.2;
+    color: #1F2937;
+}
+
+main .quote blockquote figcaption {
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+
+main .cta-container {
+    max-width: 700px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 6%;
+}
+
+main .cta-container .btn-sec {
+    color: #FFFFFF;
+    padding: 4px 20px;
+    border-radius: 6px;
+    border: 2px solid #FFFFFF;
+}
+
 footer {
     background-color: #1F2937;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 30px 0;
 }
 
 footer .footer {
