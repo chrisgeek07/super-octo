@@ -156,11 +156,12 @@ main .services .card-container .card img {
     background-color: aqua;
     border-radius: 10px;
     margin-bottom: 2%;
+    object-fit: cover;
 }
 
 main .container.quote {
     background-color: #E5E7EB;
-    padding: 8% 0;
+    padding: 6% 0;
     position: relative;
     margin-bottom: 6%;
 }
@@ -176,7 +177,7 @@ main .quote blockquote figcaption {
     font-weight: bold;
     position: absolute;
     top: 70%;
-    right: 10%;
+    right: 13%;
 }
 
 main .cta-container {
@@ -202,6 +203,14 @@ footer {
     background-color: #1F2937;
     color: #FFFFFF;
     padding: 30px 0;
+}
+
+footer h4 {
+    min-width: 220px;
+}
+
+footer .fa-heart {
+    margin: 0 1%;
 }
 
 footer .footer {
