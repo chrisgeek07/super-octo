@@ -143,6 +143,8 @@ main .services {
 main .services h2 {
     text-align: center;
     margin-bottom: 3%;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 main .services .card-container {
