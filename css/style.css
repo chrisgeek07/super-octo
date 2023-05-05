@@ -72,7 +72,6 @@ header .hero-left .content-left {
 header .hero-left img {
     width: 49%;
     height: 225px;
-    /* background-size: cover; */
     object-fit: cover;
 }
 
@@ -173,8 +172,7 @@ main .quote blockquote p {
     color: #1F2937;
 }
 
-main .quote blockquote figcaption {
-    font-weight: bold;
+main .quote blockquote p:nth-last-of-type(1) {
     position: absolute;
     top: 70%;
     right: 13%;
