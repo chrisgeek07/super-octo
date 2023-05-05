@@ -87,7 +87,7 @@ header .hero-left p {
     margin-bottom: 5%;
 }
 
-header .hero-left .main-cta {
+header .hero-left button {
     color: #FFFFFF;
     background-color: #3882F6;
     padding: 8px 16px;
@@ -126,7 +126,7 @@ a {
     text-decoration: none;
 }
 
-button{
+button {
 	background: none;
 	color: inherit;
 	border: none;
@@ -200,7 +200,7 @@ main .cta-container {
     margin-bottom: 6%;
 }
 
-main .cta-container .btn-sec {
+main .cta-container button {
     color: #FFFFFF;
     padding: 4px 20px;
     border-radius: 6px;
