@@ -56,26 +56,33 @@ header .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1% 0;
 }
 
-header .hero-left {
+main .hero-left {
     width: 100%;
+    background-color: #1F2937;
+}
+
+main .hero-left .hero-left-content {
+    background-color: #1F2937;
+    color: #FFFFFF;
     padding: 8% 0;
     display: flex;
     justify-content: space-between;
 }
 
-header .hero-left .content-left {
+main .hero-left .content-left {
     width: 49%;
 }
 
-header .hero-left img {
+main .hero-left .hero-left-content img {
     width: 49%;
     height: 225px;
     object-fit: cover;
 }
 
-header .hero-left h1 {
+main .hero-left h1 {
     font-size: 48px;
     font-family: 'Roboto-extra-bold';
     font-weight: 900;
@@ -83,11 +90,11 @@ header .hero-left h1 {
     margin-bottom: 2%;
 }
 
-header .hero-left p {
-    margin-bottom: 5%;
+main .hero-left .hero-left-content p {
+    margin-bottom: 3%;
 }
 
-header .hero-left button {
+main .hero-left .hero-left-content button {
     color: #FFFFFF;
     background-color: #3882F6;
     padding: 8px 16px;
@@ -111,11 +118,12 @@ nav ul {
 nav ul li {
     margin-left: 20px;
     letter-spacing: 1px;
-    transition: all .3s ease-in;
+    transition: all .2s ease-in-out;
 }
 
 nav ul li:hover {
     transform: translateY(-5px);
+    font-weight: bold;
 }
 
 nav ul a {
@@ -151,14 +159,13 @@ main .services .card-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 900px;
     margin-bottom: 3%;
 }
 
 main .services .card-container .card {
     max-width: 150px;
     text-align: center;
-    
 }
 
 main .services .card-container .card img {
